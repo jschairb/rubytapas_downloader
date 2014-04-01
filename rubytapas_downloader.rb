@@ -93,4 +93,6 @@ class Episode
   end
 end
 
-RubytapasDownloader.new.launch
+if __FILE__ == $0
+  RubytapasDownloader.new.launch
+end
